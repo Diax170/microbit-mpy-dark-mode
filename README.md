@@ -37,9 +37,10 @@ Any bug reports will be very helpful, so if you notice anything wrong with this 
     
     ![Step 6](images/step6.jpg)
 
-7. In the new tab that opens, click on 'Import'
+7. In the new tab that opens, click on 'Import'\
     Note: This will proabably remove your previous styles if you had any saved.
     You can then create a new style, select 'Import' and copy-paste the content of `dark-mode.css` (from this repository) instead of importing all the settings.
+    If you do this, you should ignore step 8.
     
     ![Step 7](images/step7.jpg)
 
