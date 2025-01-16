@@ -1,6 +1,6 @@
 @-moz-document url-prefix("https://python.microbit.org") {
 /* Dark mode implementation for https://python.microbit.org
-Version alpha v1.0.0
+Version alpha v1.0.1
 By Diax170 */
 
 :host, :root, [data-theme] {  /* Most important code, here I inverted most variable colors, some remain unchanged */
@@ -234,7 +234,7 @@ By Diax170 */
     background: black !important;  /* Editor background */
 }
 
-.cm-focused .cm-selectionLayer .cm-selectionBackground {
+.cm-selectionLayer .cm-selectionBackground {
     background-color: var(--chakra-colors-gray-50) !important;  /* Highlight for selected text */
 }
 
@@ -385,5 +385,4 @@ Note that I inverted --chakra-colors-white so it means black now */
 .css-pa3zzn {
     background: var(--chakra-colors-purple-500) !important;  /* Some slider thumbs */
 }
-
 }
