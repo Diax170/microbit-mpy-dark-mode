@@ -1,6 +1,6 @@
 @-moz-document url-prefix("https://python.microbit.org") {
 /* Dark mode implementation for https://python.microbit.org
-Version alpha v1.0.1
+Version alpha v1.0.2
 By Diax170 */
 
 :host, :root, [data-theme] {  /* Most important code, here I inverted most variable colors, some remain unchanged */
@@ -337,6 +337,7 @@ Note that I inverted --chakra-colors-black so it means white now */
 Note that I inverted --chakra-colors-black so it means white now */
 .sidebar-tab[aria-selected="false"], .css-1wykpal {
     color: var(--chakra-colors-gray-600) !important;
+    position: unset;  /* This makes the hover animation have proper layering */
     transition: background 0.3s !important;  /* Add a cool hover effect */
 }
 
