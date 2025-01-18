@@ -4,10 +4,8 @@ Dark mode implementation for micro:bit MicroPython editor (https://python.microb
 ![Preview](images/demo.jpg)
 
 # Attention
-Please note that I'm not very good at CSS. I was learning it while coding this. The code isn't meant to be very clear or efficient.
-
-This script is version alpha, so it hasn't been thoroughly tested yet.
-
+Please note that I'm not very good at CSS. I was learning it while coding this. The code isn't meant to be very clear or efficient.\
+This script is version alpha, so it hasn't been thoroughly tested yet.\
 Any bug reports will be very helpful, so if you notice anything wrong with this repository, please inform me.
 
 # Setup
