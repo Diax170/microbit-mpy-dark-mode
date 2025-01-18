@@ -18,3 +18,8 @@ The first release.
 
 ### Fixed
 - Most-left sidebar on-hover animation has bad layering.
+
+## alpha v1.0.3
+
+### Fixed
+- Tooltip dark mode style being ignored.
