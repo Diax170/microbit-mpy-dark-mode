@@ -1,6 +1,6 @@
 @-moz-document url-prefix("https://python.microbit.org") {
 /* Dark mode implementation for https://python.microbit.org
-Version alpha v1.0.3
+Version alpha v1.0.4
 By Diax170 */
 
 :host, :root, [data-theme] {  /* Most important code, here I inverted most variable colors, some remain unchanged */
@@ -297,6 +297,10 @@ Note that I inverted --chakra-colors-black so it means white now */
 
 .css-v7los5 {
     background: var(--chakra-colors-brand-200) !important;  /* micro:bit and search bar background */
+}
+
+.css-9q3di6 {
+    background-color: unset !important;  /* Some selected search menu item bg colors */
 }
 
 .css-1o9cckd {
