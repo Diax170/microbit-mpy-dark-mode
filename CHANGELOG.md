@@ -23,3 +23,8 @@ The first release.
 
 ### Fixed
 - Tooltip dark mode style being ignored.
+
+## alpha v1.0.4
+
+### Fixed
+- Small issues with the search bar.
