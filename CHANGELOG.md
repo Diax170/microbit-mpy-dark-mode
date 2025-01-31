@@ -24,7 +24,10 @@ The first release.
 ### Fixed
 - Tooltip dark mode style being ignored.
 
-## alpha v1.0.4
+## alpha v1.1.0
 
 ### Fixed
 - Small issues with the search bar.
+
+### Changed
+- Color of zoom in, zoom out, undo and redo buttons.

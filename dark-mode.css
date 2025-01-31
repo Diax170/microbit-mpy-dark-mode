@@ -1,6 +1,6 @@
 @-moz-document url-prefix("https://python.microbit.org") {
 /* Dark mode implementation for https://python.microbit.org
-Version alpha v1.0.4
+Version alpha v1.1.0
 By Diax170 */
 
 :host, :root, [data-theme] {  /* Most important code, here I inverted most variable colors, some remain unchanged */
@@ -300,7 +300,7 @@ Note that I inverted --chakra-colors-black so it means white now */
 }
 
 .css-9q3di6 {
-    background-color: unset !important;  /* Some selected search menu item bg colors */
+    background-color: rgb(50, 50, 50);  /* Some selected search menu item bg colors */
 }
 
 .css-1o9cckd {
@@ -321,6 +321,14 @@ Note that I inverted --chakra-colors-black so it means white now */
 
 .css-1k2j8w4, .css-jih852 {
     margin-bottom: unset !important;  /* Remove some space under the project header */
+}
+
+.css-19hmy9h, .css-1kdlk53 {
+    background: var(--chakra-colors-gray-50);  /* Zoom in, zomm out, undo, redo buttons */
+}
+
+.css-19hmy9h:hover, .css-1kdlk53:hover {
+    background: rgb(100, 100, 100);  /* On-hover color of buttons listed above */
 }
 
 .css-oe54ib {
