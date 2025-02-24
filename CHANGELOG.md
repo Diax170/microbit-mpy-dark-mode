@@ -31,3 +31,8 @@ The first release.
 
 ### Changed
 - Color of zoom in, zoom out, undo and redo buttons.
+
+## alpha v1.1.1
+
+### Fixed
+- Text of the cookies pop-up being unreadable.

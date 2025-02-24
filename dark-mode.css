@@ -1,7 +1,12 @@
 @-moz-document url-prefix("https://python.microbit.org") {
 /* Dark mode implementation for https://python.microbit.org
-Version alpha v1.1.0
+Version alpha v1.1.1
 By Diax170 */
+
+/* Cookies pop-up */
+.shared-assets-modal.shared-assets-cookies > section {
+    color: black !important;
+}
 
 :host, :root, [data-theme] {  /* Most important code, here I inverted most variable colors, some remain unchanged */
     --chakra-ring-inset: var(--chakra-empty, /*!*/ /*!*/);
