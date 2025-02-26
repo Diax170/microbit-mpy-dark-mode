@@ -36,3 +36,8 @@ The first release.
 
 ### Fixed
 - Text of the cookies pop-up being unreadable.
+
+## alpha v1.1.2
+
+### Fixed
+- Tooltip dark mode style being ignored.

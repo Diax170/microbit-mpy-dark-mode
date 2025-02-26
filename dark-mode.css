@@ -1,6 +1,6 @@
 @-moz-document url-prefix("https://python.microbit.org") {
 /* Dark mode implementation for https://python.microbit.org
-Version alpha v1.1.1
+Version alpha v1.1.2
 By Diax170 */
 
 /* Cookies pop-up */
@@ -282,11 +282,11 @@ Note that I inverted --chakra-colors-black so it means white now */
 }
 
 /* Tooltip */
-.ͼ10 .cm-tooltip, .ͼ13 .cm-tooltip, .ͼ16 .cm-tooltip {
+.cm-tooltip.cm-tooltip-autocomplete > ul, .cm-tooltip .cm-completionInfo {
     background-color: var(--chakra-colors-gray-25) !important;  /* Tooltip background color */
 }
 
-.ͼ10 .cm-tooltip.cm-tooltip-autocomplete > ul > li[aria-selected], .ͼ13 .cm-tooltip.cm-tooltip-autocomplete > ul > li[aria-selected], .ͼ16 .cm-tooltip.cm-tooltip-autocomplete > ul > li[aria-selected] {
+.cm-tooltip.cm-tooltip-autocomplete > ul > li[aria-selected] {
     background: var(--chakra-colors-gray-50) !important;  /* Selected item background color */
 }
 
